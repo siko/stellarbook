@@ -10,7 +10,7 @@
 节点类型
 --------
 ```
-| watcher                               | archiver  | basic validator**                 | full validator                                                                                                         |                                      |
+| watcher                                            | archiver      | basic validator**                   | full validator                                                                                                  |                                      |
 |----------------------------------------------------|---------------|-------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|--------------------------------------|
 | description                                        | non-validator | all of watcher + publish to archive | all of watcher + active participation in consensus (submit proposals for the transaction set to include in the next ledger) | basic validator + publish to archive |
 | submits transactions                               | yes           | yes                                 | yes                                                                                                                         | yes                                  |
